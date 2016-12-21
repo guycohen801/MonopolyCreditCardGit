@@ -16,7 +16,7 @@ static bool Player_Exists(char UniqueNum[]);
 static void Read_Money(SD_Struct* sd);
 //writes money on player file
 static void Write_Money(SD_Struct* sd);
-//search UID->UniqueNum table for the UID and set the UniqueNum of the player
+//search UID->UniqueNum table for the UID and set the UniqueNum of the player.
 static bool SDMainDataSearch(SD_Struct *sd);
 
 
@@ -118,18 +118,18 @@ static bool Player_Exists(char UniqueNum[]) {
 }
 
 bool Manage_Money(SD_Struct* sd,  long Money, char Mode) {
+	//initialize and assign TempMoney
 	long TempMoney = sd->Money;
-
+	if (Mode == MONEY_ADD) {
+		TempMoney = sd->Money + Money;
+	}
+	else {//if Mode == MONEY_SUBTRACT
+		TempMoney = sd->Money - Money;
+	}
+	//check if TempMoney is valid
 	if (TempMoney >= 0 && TempMoney < MONEY_MAX) {
+		
 		sd->myFile = SD.open(sd->FilePath, O_WRITE | O_CREAT | O_TRUNC);
-
-		if (Mode == MONEY_ADD) {	
-			TempMoney = sd->Money + Money;
-		}
-		else {//if Mode == MONEY_SUBTRACT
-			TempMoney = sd->Money - Money;
-		}
-
 	}
 	else {
 		return false;
@@ -156,6 +156,7 @@ bool Manage_Money(SD_Struct* sd,  long Money, char Mode) {
 			}
 		}//if Mode == MONEY_SUBTRACT
 		*/
+	//check if file opened successfuly and if so write to it
 	if(sd->myFile){
 		sd->Money = TempMoney;
 		Write_Money(sd);
