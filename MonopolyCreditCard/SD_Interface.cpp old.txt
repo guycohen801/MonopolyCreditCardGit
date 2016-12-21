@@ -1,0 +1,241 @@
+#include "SD_Interface.h"
+#include <stdbool.h>
+#include "math.h"
+#include <SD.h>
+#include <SPI.h>
+
+
+static bool UID_Match(SD_Struct sd, char UID[]);
+//set UID of SD_Struct
+static void Set_UID(char UID[], SD_Struct sd);
+//set UID and FilePath of SD_Struct
+static void Set_Path(SD_Struct sd, char UID[]);
+//check sd card for Player with same UID 
+static bool Player_Exists(char UID[]);
+//Reads Money from Player File adn return is as unsigned long
+static unsigned long Read_Money(File myFile);
+//writes money on player file
+static void Write_Money(SD_Struct sd);
+
+
+struct SD_Interface {
+	File myFile;
+	char UID [4];
+	char FilePath[9];
+	unsigned long Money;
+};
+
+int SD_INIT(int CsPin, int MosiPin, int MisoPin, int SckPin) {
+	
+	pinMode(3, OUTPUT);
+
+	if (SD.begin(3, 5, 6, 7)) {
+		return SD_INIT_SUCCESS;
+	}//end if
+	else {
+		return SD_INIT_FAIL;
+	}//end else
+}//end SD_INIT(int CD_Pin)
+
+SD_Struct Get_SD_Struct(char UID[]) {
+
+	if (!Player_Exists(UID)) {
+
+		SD_Struct sd;
+		sd = (SD_Struct)(malloc(sizeof(*sd)));
+
+		if (sd != NULL) {
+			sd->Money = 0;
+			Set_Path(sd, UID);
+			
+			sd->myFile = SD.open(sd->FilePath, FILE_WRITE);
+			
+			if (sd->myFile) {
+				Write_Money(sd);
+				sd->myFile.close();
+
+				return sd;
+			}
+			else {
+				return NULL;
+			}
+			}
+		else {
+			free(sd);
+			return NULL;
+		}
+	}//end if (!Player_Exists(UID))
+	else {
+
+		SD_Struct sd;
+		sd = (SD_Struct)(malloc(sizeof(*sd)));
+
+		if (sd != NULL) {
+
+			Set_Path(sd, UID);
+			sd->myFile = SD.open(sd->FilePath, FILE_READ);
+		
+			if (sd->myFile) {
+					
+				sd->Money = Read_Money(sd->myFile);
+				sd->myFile.close();
+
+				return sd;
+			}
+			else {
+				return NULL;
+			}
+
+		}
+		else {
+			free(sd);
+			return NULL;
+		}
+
+	}//end else
+}//end Create_SD_Struct()
+
+void Delete_SD_Struct(SD_Struct sd) {
+
+	if (sd == NULL) {
+		return;
+	}
+	else {
+		free(sd);
+	}
+}//end Delete_SD_Struct(SD_Struct sd)
+
+static void Set_UID(char UID[], SD_Struct sd) {
+	
+	for (int index = 0; index <= 4; index++) {
+		sd->UID[index] = UID[index];
+	}//end for
+
+}// end Get_UID(char UID[], SD_Struct sd)
+
+static void Set_Path(SD_Struct sd, char UID[]) {
+
+
+		Set_UID(UID, sd);
+
+		sd->FilePath[0] = sd->UID[0];
+		sd->FilePath[1] = sd->UID[1];
+		sd->FilePath[2] = sd->UID[2];
+		sd->FilePath[3] = sd->UID[3];
+		sd->FilePath[4] = '.';
+		sd->FilePath[5] = 't';
+		sd->FilePath[6] = 'x';
+		sd->FilePath[7] = 't';
+		sd->FilePath[8] = '\0';
+
+	}
+
+static bool Player_Exists(char UID[]) {
+	char Path[9];
+	Path[0] = UID [0];
+	Path[1] = UID [1];
+	Path[2] = UID [2];
+	Path[3] = UID [3];
+	Path[4] = '.';
+	Path[5] = 't';
+	Path[6] = 'x';
+	Path[7] = 't';
+	Path[8] = '\0';
+
+	if (SD.exists(Path)) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+
+bool Manage_Money(SD_Struct sd, unsigned long Money, char Mode) {
+
+	sd->myFile = SD.open(sd->FilePath, O_WRITE | O_CREAT | O_TRUNC);
+	
+	if (sd->myFile) {
+
+		if (Mode == MONEY_ADD) {
+			sd->Money += Money;
+		}
+		else {
+			sd->Money -= Money;
+		}
+
+		Write_Money(sd);
+		sd->myFile.close();
+
+		return true;
+	}//end if (sd->myFile)
+	else {
+		return false;
+	}//end else
+}
+
+static unsigned long Read_Money(File myFile) {
+	//delcare and init CharMoney
+	unsigned char CharMoney[10];
+	for (int i = 0; i < 10; i++) {
+		CharMoney[i] = 0;
+	}//end for
+
+	while (myFile.available()) {
+		for (int index = 0; index < 10; index++) {
+			CharMoney[index] = myFile.read();
+		}//end for
+	}//end while
+
+	unsigned long Money = 0;
+	
+		for (int index = 0; index < 10; index++) {
+			Money += CharMoney[index] * pow(10, index);
+		}//end for
+	
+		return Money;
+}
+
+static void Write_Money(SD_Struct sd) {
+	unsigned long TempMoney = sd->Money;
+	char CurrentDigit;
+	
+	for (int index = 9; index >= 0; index--) {
+
+		CurrentDigit = TempMoney / pow(10, index);
+		sd->myFile.print(CurrentDigit);
+		TempMoney -= CurrentDigit * pow(10, index);
+
+	}//end for
+
+}
+
+static bool UID_Match(SD_Struct sd, char UID[]) {
+	int match = 0;
+
+	for (int counter = 0; counter < 4; counter++) {
+		if (sd->UID[counter] == UID[counter]) {
+			match++;
+		}//end if
+	}//end for
+
+	if (match == 4) {
+		return true;
+	}//end if
+	else {
+		return false;
+	}//end else
+}
+
+unsigned long Get_Money(SD_Struct sd) {
+
+	sd->myFile = SD.open(sd->FilePath, FILE_READ);
+	
+	if (sd->myFile) {
+		unsigned long CurrentMoney = Read_Money(sd->myFile);
+		sd->myFile.close();
+		return CurrentMoney;
+	}
+	else {
+		return FILE_OPEN_FAIL;
+	}
+}

@@ -1,0 +1,61 @@
+#pragma once
+#ifndef SD_INTERFACE_H
+#define SD_INTERFACE_H
+
+#define SD_INIT_FAIL -1
+#define SD_INIT_SUCCESS 1
+
+#define PATH_CREATED 2
+#define PATH_EXISTS 3
+#define CURRENT_PATH 4
+
+#define MONEY_ADD 5
+#define MONEY_SUBTRACT 6
+
+#define FILE_OPEN_FAIL 7
+
+typedef struct SD_Interface SD_Struct;
+
+//init SD card reader
+int SD_INIT(int CsPin, int MosiPin, int MisoPin, int SckPin);
+
+//create sd struct
+SD_Struct Get_SD_Struct( char UID[]);
+
+//delete sd struct
+void Delete_SD_Struct(SD_Struct sd);
+
+//add money to player
+bool Manage_Money(SD_Struct sd, unsigned long Money, char Mode);
+
+//read money from player file and return it as unsigned long
+unsigned long Get_Money(SD_Struct sd);
+
+
+//check if playesr exists
+// bool Player_Exists(char UID[]);
+
+//Get UID
+// void Set_UID(char UID[], SD_Struct sd);
+
+//set the path of the file and UID
+// int Set_Path(SD_Struct sd, char UID[])
+
+//read the money in file and return in unsigned long
+// unsigned long Read_Money(File myFile)
+
+//check if UID is identical
+// bool UID_Match(SD_Struct sd, char UID[])
+
+#endif // !SD_INTERFACE_H
+
+/*
+SD initialize
+create struct
+delete struct
+add money
+subtract money
+show money
+player exists
+UID match
+*/
