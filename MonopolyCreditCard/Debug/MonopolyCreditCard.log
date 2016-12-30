@@ -1,0 +1,499 @@
+﻿  SD_Interface.cpp
+c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(16): warning C4005: 'ARDUINO_SAM_DUE': macro redefinition
+  c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(16): note: command-line arguments:  see previous definition of 'ARDUINO_SAM_DUE'
+c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(17): warning C4005: 'ARDUINO_ARCH_SAM': macro redefinition
+  c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(17): note: command-line arguments:  see previous definition of 'ARDUINO_ARCH_SAM'
+c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(18): warning C4005: '__SAM3X8E__': macro redefinition
+  c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(18): note: command-line arguments:  see previous definition of '__SAM3X8E__'
+c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(21): warning C4005: 'USBCON': macro redefinition
+  c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(21): note: command-line arguments:  see previous definition of 'USBCON'
+c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(22): warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(56): error C2146: syntax error: missing ';' before identifier '__uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(149): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(149): error C2378: '__uint32_t': redefinition; symbol cannot be overloaded with a typedef
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(56): note: see declaration of '__uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(149): error C2146: syntax error: missing ';' before identifier '__uint_least32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(169): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(169): error C2146: syntax error: missing ';' before identifier '__uintptr_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(66): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(66): error C2378: '__uint32_t': redefinition; symbol cannot be overloaded with a typedef
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(56): note: see declaration of '__uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(66): error C2146: syntax error: missing ';' before identifier 'uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(72): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(72): error C2378: '__uint_least32_t': redefinition; symbol cannot be overloaded with a typedef
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(149): note: see declaration of '__uint_least32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(72): error C2146: syntax error: missing ';' before identifier 'uint_least32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(191): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(191): error C2378: '__uintptr_t': redefinition; symbol cannot be overloaded with a typedef
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(169): note: see declaration of '__uintptr_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(191): error C2146: syntax error: missing ';' before identifier 'uintptr_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(51): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(51): error C2378: 'uint32_t': redefinition; symbol cannot be overloaded with a typedef
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(66): note: see declaration of 'uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(51): error C2146: syntax error: missing ';' before identifier 'RoReg'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(53): error C2378: 'uint32_t': redefinition; symbol cannot be overloaded with a typedef
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(66): note: see declaration of 'uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(53): error C2146: syntax error: missing ';' before identifier 'WoReg'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(54): error C2378: 'uint32_t': redefinition; symbol cannot be overloaded with a typedef
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(66): note: see declaration of 'uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(54): error C2146: syntax error: missing ';' before identifier 'RwReg'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(194): error C3646: '_reserved0': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(194): error C2059: syntax error: ':'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(194): error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(205): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(206): error C3646: 'w': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(206): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(216): error C3646: 'ISR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(216): error C2059: syntax error: ':'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(216): error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(218): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(219): error C3646: 'w': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(219): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(229): error C3646: 'ISR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(229): error C2059: syntax error: ':'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(229): error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(244): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(245): error C3646: 'w': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(245): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(255): error C3646: 'nPRIV': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(255): error C2059: syntax error: ':'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(255): error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(259): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(260): error C3646: 'w': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(260): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(276): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(276): error C3646: 'ISER': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(276): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(277): error C3646: 'RESERVED0': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(277): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(277): error C2143: syntax error: missing ')' before ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(277): error C2238: unexpected token(s) preceding ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(278): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(278): error C3646: 'ICER': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(278): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(279): error C3646: 'RSERVED1': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(279): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(279): error C2143: syntax error: missing ')' before ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(279): error C2238: unexpected token(s) preceding ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(280): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(280): error C3646: 'ISPR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(280): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(281): error C3646: 'RESERVED2': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(281): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(281): error C2143: syntax error: missing ')' before ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(281): error C2238: unexpected token(s) preceding ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(282): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(282): error C3646: 'ICPR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(282): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(283): error C3646: 'RESERVED3': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(283): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(283): error C2143: syntax error: missing ')' before ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(283): error C2238: unexpected token(s) preceding ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(284): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(284): error C3646: 'IABR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(284): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(285): error C3646: 'RESERVED4': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(285): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(285): error C2143: syntax error: missing ')' before ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(285): error C2238: unexpected token(s) preceding ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(287): error C3646: 'RESERVED5': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(287): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(287): error C2143: syntax error: missing ')' before ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(287): error C2238: unexpected token(s) preceding ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(288): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(288): error C3646: 'STIR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): error C3646: 'CPUID': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(309): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(309): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(309): error C3646: 'ICSR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(309): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(310): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(310): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(310): error C3646: 'VTOR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(310): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(311): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(311): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(311): error C3646: 'AIRCR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(311): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(312): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(312): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(312): error C3646: 'SCR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(312): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(313): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(313): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(313): error C3646: 'CCR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(313): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(315): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(315): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(315): error C3646: 'SHCSR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(315): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(316): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(316): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(316): error C3646: 'CFSR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(316): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(317): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(317): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(317): error C3646: 'HFSR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(317): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(318): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(318): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(318): error C3646: 'DFSR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(318): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(319): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(319): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(319): error C3646: 'MMFAR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(319): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(320): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(320): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(320): error C3646: 'BFAR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(320): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(320): fatal error C1003: error count exceeds 100; stopping compilation
+  MPR121_Interface.cpp
+c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(16): warning C4005: 'ARDUINO_SAM_DUE': macro redefinition
+  c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(16): note: command-line arguments:  see previous definition of 'ARDUINO_SAM_DUE'
+c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(17): warning C4005: 'ARDUINO_ARCH_SAM': macro redefinition
+  c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(17): note: command-line arguments:  see previous definition of 'ARDUINO_ARCH_SAM'
+c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(18): warning C4005: '__SAM3X8E__': macro redefinition
+  c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(18): note: command-line arguments:  see previous definition of '__SAM3X8E__'
+c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(21): warning C4005: 'USBCON': macro redefinition
+  c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(21): note: command-line arguments:  see previous definition of 'USBCON'
+c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(22): warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(56): error C2146: syntax error: missing ';' before identifier '__uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(149): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(149): error C2378: '__uint32_t': redefinition; symbol cannot be overloaded with a typedef
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(56): note: see declaration of '__uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(149): error C2146: syntax error: missing ';' before identifier '__uint_least32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(169): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(169): error C2146: syntax error: missing ';' before identifier '__uintptr_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(66): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(66): error C2378: '__uint32_t': redefinition; symbol cannot be overloaded with a typedef
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(56): note: see declaration of '__uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(66): error C2146: syntax error: missing ';' before identifier 'uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(72): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(72): error C2378: '__uint_least32_t': redefinition; symbol cannot be overloaded with a typedef
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(149): note: see declaration of '__uint_least32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(72): error C2146: syntax error: missing ';' before identifier 'uint_least32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(191): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(191): error C2378: '__uintptr_t': redefinition; symbol cannot be overloaded with a typedef
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(169): note: see declaration of '__uintptr_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(191): error C2146: syntax error: missing ';' before identifier 'uintptr_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(51): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(51): error C2378: 'uint32_t': redefinition; symbol cannot be overloaded with a typedef
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(66): note: see declaration of 'uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(51): error C2146: syntax error: missing ';' before identifier 'RoReg'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(53): error C2378: 'uint32_t': redefinition; symbol cannot be overloaded with a typedef
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(66): note: see declaration of 'uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(53): error C2146: syntax error: missing ';' before identifier 'WoReg'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(54): error C2378: 'uint32_t': redefinition; symbol cannot be overloaded with a typedef
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(66): note: see declaration of 'uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(54): error C2146: syntax error: missing ';' before identifier 'RwReg'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(194): error C3646: '_reserved0': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(194): error C2059: syntax error: ':'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(194): error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(205): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(206): error C3646: 'w': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(206): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(216): error C3646: 'ISR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(216): error C2059: syntax error: ':'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(216): error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(218): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(219): error C3646: 'w': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(219): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(229): error C3646: 'ISR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(229): error C2059: syntax error: ':'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(229): error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(244): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(245): error C3646: 'w': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(245): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(255): error C3646: 'nPRIV': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(255): error C2059: syntax error: ':'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(255): error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(259): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(260): error C3646: 'w': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(260): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(276): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(276): error C3646: 'ISER': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(276): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(277): error C3646: 'RESERVED0': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(277): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(277): error C2143: syntax error: missing ')' before ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(277): error C2238: unexpected token(s) preceding ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(278): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(278): error C3646: 'ICER': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(278): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(279): error C3646: 'RSERVED1': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(279): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(279): error C2143: syntax error: missing ')' before ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(279): error C2238: unexpected token(s) preceding ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(280): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(280): error C3646: 'ISPR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(280): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(281): error C3646: 'RESERVED2': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(281): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(281): error C2143: syntax error: missing ')' before ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(281): error C2238: unexpected token(s) preceding ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(282): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(282): error C3646: 'ICPR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(282): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(283): error C3646: 'RESERVED3': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(283): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(283): error C2143: syntax error: missing ')' before ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(283): error C2238: unexpected token(s) preceding ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(284): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(284): error C3646: 'IABR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(284): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(285): error C3646: 'RESERVED4': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(285): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(285): error C2143: syntax error: missing ')' before ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(285): error C2238: unexpected token(s) preceding ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(287): error C3646: 'RESERVED5': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(287): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(287): error C2143: syntax error: missing ')' before ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(287): error C2238: unexpected token(s) preceding ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(288): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(288): error C3646: 'STIR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): error C3646: 'CPUID': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(309): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(309): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(309): error C3646: 'ICSR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(309): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(310): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(310): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(310): error C3646: 'VTOR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(310): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(311): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(311): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(311): error C3646: 'AIRCR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(311): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(312): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(312): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(312): error C3646: 'SCR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(312): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(313): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(313): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(313): error C3646: 'CCR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(313): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(315): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(315): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(315): error C3646: 'SHCSR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(315): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(316): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(316): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(316): error C3646: 'CFSR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(316): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(317): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(317): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(317): error C3646: 'HFSR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(317): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(318): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(318): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(318): error C3646: 'DFSR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(318): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(319): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(319): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(319): error C3646: 'MMFAR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(319): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(320): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(320): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(320): error C3646: 'BFAR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(320): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(320): fatal error C1003: error count exceeds 100; stopping compilation
+  MFRC522_Interface.cpp
+c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(16): warning C4005: 'ARDUINO_SAM_DUE': macro redefinition
+  c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(16): note: command-line arguments:  see previous definition of 'ARDUINO_SAM_DUE'
+c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(17): warning C4005: 'ARDUINO_ARCH_SAM': macro redefinition
+  c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(17): note: command-line arguments:  see previous definition of 'ARDUINO_ARCH_SAM'
+c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(18): warning C4005: '__SAM3X8E__': macro redefinition
+  c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(18): note: command-line arguments:  see previous definition of '__SAM3X8E__'
+c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(21): warning C4005: 'USBCON': macro redefinition
+  c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(21): note: command-line arguments:  see previous definition of 'USBCON'
+c:\users\guyco\google drive\arduino\monopolycreditcard-arduinodue\monopolycreditcard\__vm\.monopolycreditcard.vsarduino.h(22): warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(56): error C2146: syntax error: missing ';' before identifier '__uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(149): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(149): error C2378: '__uint32_t': redefinition; symbol cannot be overloaded with a typedef
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(56): note: see declaration of '__uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(149): error C2146: syntax error: missing ';' before identifier '__uint_least32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(169): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(169): error C2146: syntax error: missing ';' before identifier '__uintptr_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(66): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(66): error C2378: '__uint32_t': redefinition; symbol cannot be overloaded with a typedef
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(56): note: see declaration of '__uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(66): error C2146: syntax error: missing ';' before identifier 'uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(72): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(72): error C2378: '__uint_least32_t': redefinition; symbol cannot be overloaded with a typedef
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(149): note: see declaration of '__uint_least32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(72): error C2146: syntax error: missing ';' before identifier 'uint_least32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(191): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(191): error C2378: '__uintptr_t': redefinition; symbol cannot be overloaded with a typedef
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\machine\_default_types.h(169): note: see declaration of '__uintptr_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(191): error C2146: syntax error: missing ';' before identifier 'uintptr_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(51): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(51): error C2378: 'uint32_t': redefinition; symbol cannot be overloaded with a typedef
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(66): note: see declaration of 'uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(51): error C2146: syntax error: missing ';' before identifier 'RoReg'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(53): error C2378: 'uint32_t': redefinition; symbol cannot be overloaded with a typedef
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(66): note: see declaration of 'uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(53): error C2146: syntax error: missing ';' before identifier 'WoReg'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(54): error C2378: 'uint32_t': redefinition; symbol cannot be overloaded with a typedef
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\tools\arm-none-eabi-gcc\4.8.3-2014q1\arm-none-eabi\include\stdint.h(66): note: see declaration of 'uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\device\atmel\sam3xa\include\sam3x8e.h(54): error C2146: syntax error: missing ';' before identifier 'RwReg'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(194): error C3646: '_reserved0': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(194): error C2059: syntax error: ':'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(194): error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(205): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(206): error C3646: 'w': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(206): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(216): error C3646: 'ISR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(216): error C2059: syntax error: ':'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(216): error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(218): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(219): error C3646: 'w': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(219): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(229): error C3646: 'ISR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(229): error C2059: syntax error: ':'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(229): error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(244): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(245): error C3646: 'w': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(245): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(255): error C3646: 'nPRIV': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(255): error C2059: syntax error: ':'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(255): error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(259): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(260): error C3646: 'w': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(260): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(276): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(276): error C3646: 'ISER': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(276): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(277): error C3646: 'RESERVED0': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(277): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(277): error C2143: syntax error: missing ')' before ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(277): error C2238: unexpected token(s) preceding ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(278): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(278): error C3646: 'ICER': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(278): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(279): error C3646: 'RSERVED1': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(279): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(279): error C2143: syntax error: missing ')' before ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(279): error C2238: unexpected token(s) preceding ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(280): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(280): error C3646: 'ISPR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(280): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(281): error C3646: 'RESERVED2': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(281): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(281): error C2143: syntax error: missing ')' before ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(281): error C2238: unexpected token(s) preceding ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(282): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(282): error C3646: 'ICPR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(282): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(283): error C3646: 'RESERVED3': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(283): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(283): error C2143: syntax error: missing ')' before ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(283): error C2238: unexpected token(s) preceding ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(284): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(284): error C3646: 'IABR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(284): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(285): error C3646: 'RESERVED4': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(285): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(285): error C2143: syntax error: missing ')' before ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(285): error C2238: unexpected token(s) preceding ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(287): error C3646: 'RESERVED5': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(287): error C2143: syntax error: missing ',' before '['
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(287): error C2143: syntax error: missing ')' before ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(287): error C2238: unexpected token(s) preceding ';'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(288): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(288): error C3646: 'STIR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): error C3646: 'CPUID': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(309): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(309): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(309): error C3646: 'ICSR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(309): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(310): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(310): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(310): error C3646: 'VTOR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(310): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(311): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(311): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(311): error C3646: 'AIRCR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(311): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(312): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(312): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(312): error C3646: 'SCR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(312): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(313): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(313): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(313): error C3646: 'CCR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(313): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(315): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(315): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(315): error C3646: 'SHCSR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(315): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(316): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(316): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(316): error C3646: 'CFSR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(316): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(317): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(317): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(317): error C3646: 'HFSR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(317): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(318): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(318): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(318): error C3646: 'DFSR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(318): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(319): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(319): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(319): error C3646: 'MMFAR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(319): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(320): error C2327: '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': is not a type name, static, or enumerator
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(320): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(320): error C3646: 'BFAR': unknown override specifier
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(320): error C2086: 'volatile int <unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t': redefinition
+  c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(308): note: see declaration of '<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::<unnamed-tag>::uint32_t'
+c:\users\guyco\appdata\local\arduino15\packages\arduino\hardware\sam\1.6.7\system\cmsis\cmsis\include\core_cm3.h(320): fatal error C1003: error count exceeds 100; stopping compilation
+  Generating Code...

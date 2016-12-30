@@ -1,5 +1,6 @@
+#include <MFRC522.h>
+
 #include "MFRC522_Interface.h"
-#include <MFRC522\MFRC522.h>
 
 
 MFRC522 mfrc522(SS_PIN, RST_PIN);

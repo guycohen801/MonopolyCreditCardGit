@@ -8,10 +8,12 @@
 #else
 #endif
 
-#define MPR121_INIT_FAIL -1
+#define irqpin 2
+
+#define MPR121_INIT_FAIL 15
 #define MPR121_INIT_SUCCESS 1
 #define NumOfElectrodes 12
-#define Touch_Status_Not_Changed -12
+#define Touch_Status_Not_Changed 101
 
 #define Electrode_0 0
 #define Electrode_1 1
@@ -29,9 +31,14 @@
 typedef struct MPR121_Interface* MPR121_Struct;
 
 //Initialize the MPR121
-char MPR121_INIT(char SetInterrupPin, char SetTouchThreshold, char SetReleaseThreshold);
-
+//char MPR121_INIT(char SetInterrupPin, char SetTouchThreshold, char SetReleaseThreshold);
+char MPR121_INIT();
 //check if an electride was touched and return it's number
-char Update_Touch_Status();
+//char Update_Touch_Status();
+char readTouchInputs();
+
+boolean checkInterrupt(void);
+void set_register(int address, unsigned char r, unsigned char v);
+void mpr121_setup(void);
 
 #endif

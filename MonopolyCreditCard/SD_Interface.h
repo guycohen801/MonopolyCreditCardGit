@@ -26,7 +26,6 @@ struct SD_Interface {
 	char UniqueNum[3];
 	char FilePath[8];
 	unsigned long Money;
-	char MoneyArray[10];
 };
 
 typedef struct SD_Interface SD_Struct;
@@ -46,7 +45,7 @@ bool Manage_Money(SD_Struct* sd, long Money, char Mode);
 //read money from player file and return it as unsigned long
 char Get_Money(SD_Struct* sd);
 
-void test(char CharArray[]);
+
 //check if playesr exists
 // bool Player_Exists(char UID[]);
 
